@@ -20,8 +20,8 @@ SHUNT_OHMS = 0.1
 MAX_EXPECTED_AMPS = 0.2
 
 #vars for run
-refresh = 1
-count_int = 3
+refresh = 10
+count_int = 360
 
 def read_temp_raw():
     f = open(device_file, 'r')
